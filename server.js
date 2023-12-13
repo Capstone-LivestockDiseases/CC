@@ -66,7 +66,7 @@ app.post('/register', (req, res) => {
 });
 
 app.post('/login', (req, res) => {
-    const {email, password} = req.body;
+    const { email, password } = req.body;
     const cekEmail = "SELECT * FROM user WHERE email =?";
     db.query(cekEmail, [email], (error, result) => {
         if (error) throw error;
@@ -80,8 +80,17 @@ app.post('/login', (req, res) => {
         const token = jwt.sign({
             id: result[0].id,
             email: result[0].email
-        }, 'secret', {expiresIn: '1d'})
-        return res.status(200).json({ success: true, message: "Login berhasil", token});
+        }, 'secret', { expiresIn: '1d' });
+
+        return res.status(200).json({
+            success: true,
+            message: "Login berhasil",
+            LoginResult: {
+                Id: result[0].id,
+                name: result[0].username,
+                token: token
+            }
+        });
     });
 });
 
