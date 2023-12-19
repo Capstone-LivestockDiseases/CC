@@ -9,9 +9,9 @@ const jwt = require('jsonwebtoken');
 app.use(express.json());
 
 const db = mysql.createConnection({
-    host: '34.101.140.223',
+    host: '',
     user: 'root',
-    password: '123',
+    password: '',
     database: 'animal_farm'
 });
 
