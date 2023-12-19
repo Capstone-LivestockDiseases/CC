@@ -18,7 +18,7 @@
 
 ```
 
-### Cloud Architecture
+### Cloud Architecture Diagram
 
 
 
