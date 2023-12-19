@@ -14,9 +14,6 @@
 
 ### REST API Documentation
 
-```
-
-```
 
 ### Cloud Architecture Diagram
 
