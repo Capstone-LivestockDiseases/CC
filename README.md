@@ -12,9 +12,10 @@
 ## Cloud Computing 
 
 ### REST API Documentation
-
+https://documenter.getpostman.com/view/29640865/2s9YkjAP2z#2b4f5b15-741f-4196-850d-853298423f6d
 
 ### Cloud Architecture Diagram
+![Untitled-2023-12-20-0015](https://github.com/Capstone-LivestockDiseases/CC/assets/138839552/6869fd33-abb0-40a7-8c6c-03e02b5e3c23)
 
 
 
