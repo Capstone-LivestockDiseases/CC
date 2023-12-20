@@ -19,6 +19,4 @@
 
 
 
-### Google Cloud Platfrom Pricing
 
-### Project Installation
